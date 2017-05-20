@@ -7,7 +7,7 @@ for(var i = 0; i < myArray.length; i++) {
 
 $("#imageButton").on("click","button", function() {
 	var topic = $(this).attr("data-topic");
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
         topic + "&api_key=dc6zaTOxFJmzC&limit=10";
 	$("#gifImage").empty();
 
