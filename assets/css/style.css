@@ -1,0 +1,18 @@
+body {
+	background: lightblue;
+	
+}
+*{
+	box-sizing: border-box;
+}
+
+img {
+height:300px;
+width: 300px;
+
+}
+
+#imageButton {
+	padding:50px;
+	
+}

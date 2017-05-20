@@ -25,11 +25,17 @@ $("#imageButton").on("click","button", function() {
 		for (var i = 0; i < results.length; i++) {
 			var imageUrl = response.data[i].images.original_still.url;
 			var url = results[i].images.downsized.url
+			
+			
 			var image = $("<img>").attr("src", imageUrl);
 			image.attr("data-pause", imageUrl);
 			image.attr("data-animate", url);
 			image.attr("data-state", "pause");
 			$("#gifImage").append(image);
+			
+			
+
+			
       	}
     })
 })
