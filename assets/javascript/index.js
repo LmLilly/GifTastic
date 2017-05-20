@@ -50,8 +50,7 @@ $("#gifImage").on("click", "img", function() {
     	var newUrl = $(this).attr("data-pause");
     	$(this).attr("src", newUrl);
     	$(this).attr("data-state", "pause");
-
-    }
+	}
 })
 
 $("#addSubmit").on("click", function() {
@@ -61,8 +60,4 @@ $("#addSubmit").on("click", function() {
 	var gifDiv = $("<button>").text(addText);
 	gifDiv.attr("data-topic",addText);
 	$("#imageButton").append(gifDiv);
-
-
-
-
 })
